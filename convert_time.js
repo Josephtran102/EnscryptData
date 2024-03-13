@@ -17,13 +17,3 @@ console.log('\x1b[45m\x1b[37m', formattedDate); // In ra ngày tháng dưới d�
 // console.log('\x1b[45m\x1b[37m', timestamp); // In ra timestamp
 
 
-// Liệt kê mã màu Background & Text in Terminal:
-// for i in {40..47}; do echo -en "\x1b[${i}m Background Color $i \x1b[0m\n"; done
-// for i in {30..37}; do echo -en "\x1b[${i}m Color Text $i \x1b[0m\n"; done
-
-// for bg_color in {40..47}; do
-//     for fg_color in {30..37}; do
-//         echo -en "\x1b[${bg_color};${fg_color}m Text: ${fg_color}, Background: ${bg_color} \x1b[0m ";
-//     done
-//     echo;
-// done
